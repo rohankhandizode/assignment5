@@ -35,7 +35,7 @@ transporter.use('compile', hbs(
 const app = express();
 
 //database connection
-mongoose.connect("mongodb://127.0.0.1:27017/authmongo")
+mongoose.connect("mongodb+srv://rohanrk:Rohan@22@cluster0.aure8sz.mongodb.net/demo")
     .then(res => console.log("MongoDB Connected"))
     .catch(err => console.log("Error : " + err));
 //end
